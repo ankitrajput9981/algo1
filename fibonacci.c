@@ -2,9 +2,9 @@
 int main(){
   int num;
   printf("enter the number:");
-  scanf("%d",&num);
-  int ans=fib(num);
-  printf("the fibonaccic of %d is:%d",num,ans);
+  scanf("%d",&n);
+  int ans=fib(n);
+  printf("the fibonaccic of %d is:%d",n,ans);
 }
 int fib(int n){
   if(n==0){
